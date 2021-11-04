@@ -15,12 +15,12 @@ image_original = Image.open("cse110_images/beach.jpg")
 pixels_original = image_original.load()
 
 
-for x in range(100, 101):
+for x in range(100, 201):
     """
     This loop help us to display the RGB number with corresponding pixels of image
     and set a new color value for corresponding pixels.
     """
-    for y in range(200, 205) :
+    for y in range(200, 505) :
         (r, g, b) = pixels_original[x, y]
     
         print(f"RGB number {r, g, b} corresponding to pixels {x, y}\n")
