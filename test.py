@@ -1,4 +1,5 @@
-value = 20
-while value < 20:
-   value = value + 1
-print(value)
+value = "I, will go, do   "
+value = value.strip()
+words = value.split(",")
+
+print(words)

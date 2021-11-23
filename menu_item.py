@@ -47,7 +47,7 @@ while action != 5 :
          total_price = 0
          for price in list_of_price :
              total_price += price           
-         print(f"The total price of the items in the shopping cart is ${round(total_price, 2)}")
+         print(f"The total price of the items in the shopping cart is ${total_price:.2f}")
 
      elif action == 5 :
           print("Thank you. Goodbye.")
